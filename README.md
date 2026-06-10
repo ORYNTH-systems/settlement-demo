@@ -6,10 +6,10 @@ Settlement Demonstration Surface is a constrained reference environment demonstr
 
 The demonstration surface applies:
 
-- Unified Agency Architecture (UAA)
-- Execution Integrity Protocol (EIP)
-- Runtime Enforcement Surface
-- Proof-of-Block semantics
+* Unified Agency Architecture (UAA)
+* Execution Integrity Protocol (EIP)
+* Runtime Enforcement Surface
+* Proof-of-Block semantics
 
 to controlled settlement-oriented execution flows.
 
@@ -19,12 +19,12 @@ to controlled settlement-oriented execution flows.
 
 The settlement surface demonstrates systems in which:
 
-- settlement execution requires admissibility validation
-- runtime integrity is verified before effectuation
-- replayed settlement authorization is rejected
-- stale execution state invalidates settlement
-- boundary violations fail closed
-- denied settlement attempts become audit-relevant governance events
+* settlement execution requires admissibility validation
+* runtime integrity is verified before effectuation
+* replayed settlement authorization is rejected
+* stale execution state invalidates settlement
+* boundary violations fail closed
+* denied settlement attempts become audit-relevant governance events
 
 Settlement effectuation is only permitted when all required runtime integrity predicates remain valid immediately before execution.
 
@@ -48,14 +48,14 @@ Settlement Demonstration Surface applies those layers to governed settlement-ori
 
 The settlement surface may demonstrate:
 
-- runtime-bound settlement authorization
-- replay-resistant settlement execution
-- deterministic allow/block settlement behavior
-- execution-boundary validation
-- settlement-state continuity enforcement
-- append-only auditability
-- deterministic denial attribution
-- fail-closed settlement enforcement
+* runtime-bound settlement authorization
+* replay-resistant settlement execution
+* deterministic allow/block settlement behavior
+* execution-boundary validation
+* settlement-state continuity enforcement
+* append-only auditability
+* deterministic denial attribution
+* fail-closed settlement enforcement
 
 ---
 
@@ -63,14 +63,14 @@ The settlement surface may demonstrate:
 
 Future reference demonstrations may include:
 
-- governed transfer execution
-- runtime settlement validation
-- settlement continuity verification
-- replay-prevention enforcement
-- deterministic settlement denial semantics
-- append-only settlement auditability
-- settlement proof attribution
-- execution-prevention attestations
+* governed transfer execution
+* runtime settlement validation
+* settlement continuity verification
+* replay-prevention enforcement
+* deterministic settlement denial semantics
+* append-only settlement auditability
+* settlement proof attribution
+* execution-prevention attestations
 
 ---
 
@@ -84,10 +84,34 @@ Invalid runtime state produces zero settlement effect.
 
 ---
 
+## Related Publication
+
+**Deterministic Execution Integrity for Autonomous Financial Infrastructure**
+
+DOI:
+https://doi.org/10.5281/zenodo.20349626
+
+Author: Ashley S. Harris
+
+ORCID Research Profile:
+https://orcid.org/0009-0000-4470-9941
+
+This repository serves as a public reference surface associated with the published research on deterministic execution integrity for autonomous financial infrastructure.
+
+### Related Resources
+
+* ORYNTH GitHub Organization:
+  https://github.com/ORYNTH-systems
+
+* GitHub Sponsors:
+  https://github.com/sponsors/ORYNTH-systems
+
+---
+
 ## Contact
 
 governance@unifiedagencyarchitecture.org
 
-Official reference:
+Official Reference:
 
 https://unifiedagencyarchitecture.org/
